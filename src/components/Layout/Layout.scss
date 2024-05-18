@@ -1,0 +1,61 @@
+
+.layout {
+    display: flex;
+    margin: 80px;
+    @media (max-width: 600px) {
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+    .filters {
+      width: 280px;
+      margin-right: 40px;
+      padding: 12px 0 12px 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      width: 280px;
+      @media (max-width: 600px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+    
+    
+  
+    .articles {
+      flex: 3;
+      padding: 20px;
+    }
+    
+    .article {
+      margin-bottom: 20px;
+      padding: 15px;
+      // transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+      // &:hover {
+      //   transform: translateY(-2px);
+      //   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      // }
+    
+      h2 {
+        margin: 0 0 10px;
+        font-size: 1.5rem;
+        color: #333;
+      }
+    
+      p {
+        margin: 5px 0;
+        font-size: 1rem;
+        color: #555;
+    
+        strong {
+          color: #000;
+        }
+      }
+    }
+  }
+  
+  // Ensure ArticleList and Pagination styles are imported as well
+  @import '../ArticleList/ArticleList.scss';
+  @import '..//Pagination/Pagination.scss';
+  

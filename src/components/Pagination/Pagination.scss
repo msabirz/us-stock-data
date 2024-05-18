@@ -1,0 +1,10 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    & nav ul li button.Mui-selected{
+        background-color:#1E2128;
+        color:#FFFFFF
+    }
+  }
+  

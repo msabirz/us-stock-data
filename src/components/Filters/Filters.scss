@@ -1,0 +1,50 @@
+
+.filters{
+
+    & .MuiFormLabel-root{
+        background-color: #F8F9FA;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        width: 256px;
+        padding: 6px 0 6px 12px;
+        color: #171A1F;
+        &.Mui-focused {
+            color: #171A1F;
+        }
+    }
+
+    & .MuiFormGroup-root{
+        margin: 8px 0 24px 24px;
+        & .MuiFormControlLabel-root {
+            height: 22px;
+            padding: 3px 0;
+            & .MuiCheckbox-root{
+                padding-right: 10px;
+                & svg{
+                    height: 16px;
+                    width: 16px;
+                    border-radius: 2px;
+                }
+                &.Mui-checked {
+                    color:'primary'   
+                }
+            }
+            & .MuiRadio-root{
+                &.Mui-checked {
+                    color:#5113D7   
+                }
+            }
+            & span .labelWithIcon{
+                display: flex;
+                & svg{
+                    position: absolute;
+                    right: 0;
+                }
+            }   
+
+            
+        }
+    }
+    
+}

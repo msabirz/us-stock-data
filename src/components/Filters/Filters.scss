@@ -31,6 +31,11 @@
                 }
             }
             & .MuiRadio-root{
+                & svg {
+                        height: 16px;
+                        width: 16px;
+                        border-radius: 2px;
+                    }
                 &.Mui-checked {
                     color:#5113D7   
                 }
